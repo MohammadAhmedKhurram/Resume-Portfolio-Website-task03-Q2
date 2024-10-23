@@ -26,8 +26,7 @@ export default function GeneralButton(props: GenButton) {
     transition: "background-color 0.8s, color 0.8s, borderColor 0.8s",
   };
 
-  let bgColor = {props}
-
+  // let bgColor = { props };
 
   return (
     <>
@@ -37,16 +36,15 @@ export default function GeneralButton(props: GenButton) {
         onMouseEnter={(e) => {
           e.currentTarget.style.backgroundColor = "#ECF0F1";
           e.currentTarget.style.color = "black";
-          e.currentTarget.style.borderColor = "#E74C3C"
+          e.currentTarget.style.borderColor = "#E74C3C";
         }}
         onMouseLeave={(e) => {
           e.currentTarget.style.backgroundColor = "#E74C3C";
           e.currentTarget.style.color = "#ECF0F1";
-          e.currentTarget.style.borderColor = "#E74C3C"
+          e.currentTarget.style.borderColor = "#E74C3C";
         }}
       >
         {props.title}
-        
       </button>
     </>
   );

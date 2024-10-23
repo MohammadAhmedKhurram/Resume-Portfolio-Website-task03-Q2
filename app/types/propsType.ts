@@ -1,7 +1,6 @@
-import Image, { StaticImageData } from "next/image";
 
 export type Card = {
-  image: string | StaticImageData;
+  image: string ;
   title: string;
   description: string;
 };

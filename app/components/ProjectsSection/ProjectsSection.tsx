@@ -1,4 +1,3 @@
-import { flightRouterStateSchema } from "next/dist/server/app-render/types";
 import GeneralButton from "../Buttons/ButtonGeneral";
 import ProjectCard from "./ProjectCard";
 import Link from "next/link";

@@ -1,5 +1,4 @@
 "use client";
-import styles from "@/app/components/Styles/TypingEffect.module.css";
 import { useEffect, useState } from "react";
 import TypeIt from "typeit";
 
