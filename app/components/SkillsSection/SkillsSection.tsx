@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "@/app/components/Styles/Icon.module.css"; // The name 'styles' is arbitrary and can be anything
+import styles from "@/app/components/Styles/Icon.module.css"; 
 
 export default function Skills() {
   return (
@@ -46,10 +46,10 @@ export default function Skills() {
         <div
           style={{
             display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(100px, 1fr))", // Responsive grid
-            gap: "20px", // Space between icons
+            gridTemplateColumns: "repeat(auto-fit, minmax(100px, 1fr))", 
+            gap: "20px", 
             alignItems: "flex-end",
-            justifyItems: "center", // Center icons within each grid cell
+            justifyItems: "center", 
             paddingTop: "150px",
           }}
         >

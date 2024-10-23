@@ -9,14 +9,14 @@ export default function ProjectCard(props: Card) {
         backgroundColor: "#F3F6FF",
         color: "#2C3E50 ",
         padding: "0",
-        width: "550px", // Card width
+        width: "550px", 
         textAlign: "left",
-        margin: "10px", // Margin to create space between cards
+        margin: "10px", 
       }}
     >
       <div
         style={{
-          width: "100%", // Full width of the parent
+          width: "100%", 
           margin: "0",
           borderTopLeftRadius: "10px",
           borderTopRightRadius: "10px",
@@ -26,10 +26,10 @@ export default function ProjectCard(props: Card) {
         <Image
           src={props.image}
           alt={props.title}
-          layout="responsive" // Use intrinsic layout for explicit sizing
-          width={200} // Keep the width the same
-          height={12.5} // Halved height (12.5px)
-          objectFit="contain" // Ensure the entire image is visible
+          layout="responsive" 
+          width={200} 
+          height={12.5} 
+          objectFit="contain" 
         />
       </div>
       <div style={{ padding: "5px" }}>

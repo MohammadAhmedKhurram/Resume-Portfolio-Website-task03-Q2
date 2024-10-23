@@ -21,7 +21,6 @@ export default function Contact() {
             justifyContent: "space-between",
           }}
         >
-          {/* Left Section with Contact Info */}
           <div style={{ flex: 1, paddingRight: "20px" }}>
             <h1
               style={{
@@ -80,7 +79,6 @@ export default function Contact() {
               </div>
             </div>
 
-            {/* Get Connected Section */}
             <div style={{ paddingTop: "60px" }}>
               <h2 style={{ margin: "0px", color: "#E74C3C" }}>Get Connected</h2>
               <div
@@ -123,7 +121,6 @@ export default function Contact() {
             </div>
           </div>
 
-          {/* Right Section with Contact Form */}
           <div style={{ flex: 1, paddingTop: "24px" }}>
             <ContactForm />
           </div>

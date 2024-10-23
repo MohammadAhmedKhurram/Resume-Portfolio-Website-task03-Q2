@@ -17,11 +17,10 @@ export default function ContactForm() {
         margin: "auto",
       }}
     >
-      {/* Adding padding on the sides for equal left and right gaps */}
       <div
         style={{
           margin: "0px",
-          paddingRight: "22px", // Right padding for overall alignment
+          paddingRight: "22px",
         }}
       >
         <form style={{ display: "flex", flexDirection: "column", gap: "30px" }}>
@@ -32,7 +31,7 @@ export default function ContactForm() {
               gap: "20px",
             }}
           >
-            <div style={{ flex: 1, margin: "0 10px" }}> {/* Center gap for the first row */}
+            <div style={{ flex: 1, margin: "0 10px" }}> 
               <label style={{ color: "#2C3E50", marginBottom: "10px" }}>
                 First Name <span style={{ color: "#E74C3C " }}>*</span>
               </label>
@@ -52,7 +51,7 @@ export default function ContactForm() {
               />
             </div>
 
-            <div style={{ flex: 1, margin: "0 10px" }}> {/* Center gap for the first row */}
+            <div style={{ flex: 1, margin: "0 10px" }}> 
               <label style={{ color: "#2C3E50", marginBottom: "10px" }}>
                 Last Name <span style={{ color: "#E74C3C" }}>*</span>
               </label>
@@ -80,7 +79,7 @@ export default function ContactForm() {
               gap: "20px",
             }}
           >
-            <div style={{ flex: 1, margin: "0 10px" }}> {/* Center gap for the second row */}
+            <div style={{ flex: 1, margin: "0 10px" }}>
               <label style={{ color: "#2C3E50", marginBottom: "10px" }}>
                 Email <span style={{ color: "#E74C3C" }}>*</span>
               </label>
@@ -100,7 +99,7 @@ export default function ContactForm() {
               />
             </div>
 
-            <div style={{ flex: 1, margin: "0 10px" }}> {/* Center gap for the second row */}
+            <div style={{ flex: 1, margin: "0 10px" }}> 
               <label style={{ color: "#2C3E50", marginBottom: "10px" }}>
                 Phone <span style={{ color: "#E74C3C" }}>*</span>
               </label>
@@ -139,7 +138,6 @@ export default function ContactForm() {
                 resize: "none",
                 opacity: "0.7",
                 outline: "none"
-                // marginBottom: "20px",
               }}
             ></textarea>
           </div>

@@ -26,7 +26,6 @@ export default function GeneralButton(props: GenButton) {
     transition: "background-color 0.8s, color 0.8s, borderColor 0.8s",
   };
 
-  // let bgColor = { props };
 
   return (
     <>

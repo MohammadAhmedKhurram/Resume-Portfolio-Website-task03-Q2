@@ -106,7 +106,7 @@ export default function TypingEffect() {
     <>
       <div
         id="element"
-        style={{ fontSize: "1.875vw", fontWeight: "bold", color: "#ECF0F1" }} // Adjusted font size
+        style={{ fontSize: "1.875vw", fontWeight: "bold", color: "#ECF0F1" }} 
       ></div>
     </>
   );

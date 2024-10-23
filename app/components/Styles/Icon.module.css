@@ -6,7 +6,7 @@
     width: 100px;
     height: 100px;
     transition: all 1.2s ease;
-    filter: grayscale(100%); /* Black & White initially */
+    filter: grayscale(100%); 
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -14,9 +14,9 @@
   }
   
   .icon:hover {
-    filter: grayscale(0%); /* Show color */
-    transform: scale(1.2) translateY(-8px); /* Blow effect */
-    opacity: 1; /* Slight blur */
+    filter: grayscale(0%);
+    transform: scale(1.2) translateY(-8px); 
+    opacity: 1; 
   }
   
  

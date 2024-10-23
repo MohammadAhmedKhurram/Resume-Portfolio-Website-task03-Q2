@@ -30,7 +30,7 @@ export default function ProjectsSection() {
       <div
         style={{
           display: "grid",
-          gridTemplateColumns: "repeat(3, 1fr)", // Three projects per row
+          gridTemplateColumns: "repeat(3, 1fr)", 
           gap: "30px",
           paddingLeft: "70px",
           paddingRight: "70px",
