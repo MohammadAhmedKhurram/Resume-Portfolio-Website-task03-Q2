@@ -1,0 +1,32 @@
+.iconContainer {
+    text-align: center;
+  }
+  
+  .icon {
+    width: 100px;
+    height: 100px;
+    transition: all 1.2s ease;
+    filter: grayscale(100%); /* Black & White initially */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+  }
+  
+  .icon:hover {
+    filter: grayscale(0%); /* Show color */
+    transform: scale(1.2) translateY(-8px); /* Blow effect */
+    opacity: 1; /* Slight blur */
+  }
+  
+ 
+
+  .rotate {
+    transition: transform 0.5s;
+}
+
+.rotate:hover {
+    transform: rotate(360deg);
+}
+
+
