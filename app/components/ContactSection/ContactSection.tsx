@@ -39,7 +39,7 @@ export default function Contact() {
                 margin: "0px 0px 0px 0px",
               }}
             >
-              I'm here to help you!
+              I&apos;m here to help you!
             </p>
 
             <div

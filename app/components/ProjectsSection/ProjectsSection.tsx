@@ -19,7 +19,7 @@ export default function ProjectsSection() {
         }}
       >
         <h1 style={{ fontSize: "36px", color: "#E74C3C" }}>
-          Projects I've Built
+          Projects I&apos;ve Built
         </h1>
         <p style={{ fontSize: "20px", color: "#2C3E50" }}>
           I’m dedicated to driving innovation through technology. Below are some
