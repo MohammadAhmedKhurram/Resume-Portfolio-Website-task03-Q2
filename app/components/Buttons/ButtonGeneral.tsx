@@ -9,21 +9,22 @@ const poppins = Poppins({
 
 export default function GeneralButton(props: GenButton) {
   const buttonStyle = {
+    fontSize: "0.68vw",
     backgroundColor: "#E74C3C",
     color: "#ECF0F1",
-    border: "2px solid #E74C3C",
-    paddingTop: "10px ",
-    paddingBottom: "10px ",
-    paddingRight: "20px",
-    paddingLeft: "20px",
+    border: "0.10vw solid #E74C3C",
+    paddingTop: "0.93vh ",
+    paddingBottom: "0.93vh ",
+    paddingRight: "1.04vw",
+    paddingLeft: "1.04vw",
     borderRadius: "10px",
     fontWeight: "bolder",
     cursor: "pointer",
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
-    letterSpacing: "1px",
-    transition: "background-color 0.8s, color 0.8s, borderColor 0.8s",
+    letterSpacing: "0.05vw",
+    transition: "background-color 0.8s, color 0.8s, borderColor 0.8s" 
   };
 
 

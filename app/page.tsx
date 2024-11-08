@@ -8,12 +8,12 @@ import Footer from "./components/FooterSection/FooterSection"
 export default function Main () {
   return (
     <>
-    <MainSection/>
+    {/* <MainSection/> */}
     <Skills/>
-    <Education/>
+    {/* <Education/>
     <Projects/>
     <Contact/>
-    <Footer/>
+    <Footer/> */}
     </>
   )
 }

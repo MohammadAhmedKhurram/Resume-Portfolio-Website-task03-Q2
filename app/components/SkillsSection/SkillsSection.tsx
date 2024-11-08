@@ -1,5 +1,15 @@
 import Image from "next/image";
 import styles from "@/app/components/Styles/Icon.module.css"; 
+import styled from "styled-components";
+
+const h1 = styled.ul`
+@media (max-width: 550px) {
+  h1{
+    width: 300
+    height: 300
+  }
+}
+`;
 
 export default function Skills() {
   return (

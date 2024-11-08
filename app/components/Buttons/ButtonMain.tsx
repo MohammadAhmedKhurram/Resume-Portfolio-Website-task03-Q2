@@ -8,21 +8,22 @@ const poppins = Poppins({
 
 export default function MainButton() {
   const buttonStyle = {
+    fontSize: "0.68vw",
     backgroundColor: "#ECF0F1 ",
     color: "black",
     border: "none",
-    paddingTop: "10px ",
-    paddingBottom: "10px ",
-    paddingRight: "20px",
-    paddingLeft: "20px",
+    paddingTop: "0.93vh ",
+    paddingBottom: "0.93vh ",
+    paddingRight: "1.04vw",
+    paddingLeft: "1.04vw",
     borderRadius: "10px",
     fontWeight: "bold",
     cursor: "pointer",
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
-    gap: "2px",
-    letterSpacing: "1px",
+    gap: "0.10vw",
+    letterSpacing: "0.05vw",
     transition: "background-color 0.8s, color 0.8s",
   };
 

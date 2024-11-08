@@ -1,7 +1,18 @@
+"use client"
 import GeneralButton from "../Buttons/ButtonGeneral";
+import styled from "styled-components";
 import Image from "next/image";
 import Navbar from "../Navbar";
 import TypingEffect from "../TypingEffect";
+
+const image = styled.ul`
+@media (max-width: 550px) {
+  Image{
+    width: 300
+    height: 300
+  }
+}
+`;
 
 export default function MainSection() {
   return (
@@ -16,9 +27,9 @@ export default function MainSection() {
           height: "100vh",
         }}
       >
-        <span style={{ paddingTop: "220px", paddingLeft: "100px" }}>
+        <span style={{ paddingTop: "11.46vw", paddingLeft: "5.21vw" }}>
           <TypingEffect />
-          <p style={{ paddingTop: "50px", fontSize: "20px", color: "#ECF0F1" }}>
+          <p style={{ paddingTop: "2.60vw", fontSize: "1.04vw", color: "#ECF0F1" }}>
             Hey there! I’m Muhammad Ahmed Khurram, a 16-year-old
             <br /> engineer, problem-solver, and innovator. I’m on a mission to
             <br /> lead and reshape the future of technology by creating
@@ -29,10 +40,10 @@ export default function MainSection() {
             drive global
             <br /> advancements and empower industries with smarter solutions.
           </p>
-          <p style={{ paddingTop: "0px", fontSize: "20px", color: "#ECF0F1" }}>
+          <p style={{ paddingTop: "0px", fontSize: "1.04vw", color: "#ECF0F1" }}>
             Let’s connect and build the next big thing together!
           </p>
-          <p  style={{ paddingTop: "50px" }}>
+          <p  style={{ paddingTop: "2.60vw" }}>
             <a href="#contact" style={{ color: "inherit", textDecoration: 'none' }}>
             <GeneralButton title="Request Help" />
             </a>
@@ -43,7 +54,7 @@ export default function MainSection() {
           alt="An Image"
           width={650}
           height={650}
-          style={{ paddingRight: "200px", paddingTop: "150px" }}
+          style={{ paddingRight: "10.42vw", paddingTop: "7.82vw" }}
         />
       </div>
       <div id="skills"></div>
@@ -51,3 +62,8 @@ export default function MainSection() {
     </>
   );
 }
+
+
+
+
+

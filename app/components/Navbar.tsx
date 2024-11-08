@@ -1,4 +1,14 @@
+"use client"
 import MainButton from "./Buttons/ButtonMain";
+import styled from "styled-components";
+
+const NavLinks = styled.ul`
+  @media (max-width: 550px) {
+    li {
+      display: none;
+    }
+  }
+`;
 
 export default function Navbar() {
   return (
@@ -19,8 +29,8 @@ export default function Navbar() {
             color: "#F1C40F",
             display: "flex",
             alignItems: "center",
-            paddingLeft: "180px",
-            fontSize: "42px",
+            paddingLeft: "9.38vw",
+            fontSize: "2.19vw",
             textDecorationLine: "none",
             textDecoration: "none",
           }}
@@ -42,15 +52,16 @@ export default function Navbar() {
             <span style={{ color: "#ECF0F1" }}>{"K}"}</span>
           </a>
         </h1>
+        <NavLinks>
         <ul
           style={{
             textDecoration: "none",
             color: "white",
             listStyleType: "none",
             display: "flex",
-            gap: "50px",
+            gap: "2.60vw",
             alignItems: "center",
-            paddingRight: "180px",
+            paddingRight: "9.38vw",
           }}
         >
           <li style={{ color: "#ECF0F1" }}>
@@ -94,6 +105,7 @@ export default function Navbar() {
             </a>
           </span>
         </ul>
+        </NavLinks>
       </div>
     </>
   );
