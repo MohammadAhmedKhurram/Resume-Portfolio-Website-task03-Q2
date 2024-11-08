@@ -1,18 +1,8 @@
-"use client"
 import GeneralButton from "../Buttons/ButtonGeneral";
-import styled from "styled-components";
 import Image from "next/image";
 import Navbar from "../Navbar";
 import TypingEffect from "../TypingEffect";
 
-const image = styled.ul`
-@media (max-width: 550px) {
-  Image{
-    width: 300
-    height: 300
-  }
-}
-`;
 
 export default function MainSection() {
   return (
